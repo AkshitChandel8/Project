@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Music Mania</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="music-player.html">Music Player</a>
+        </nav>
+    </header>
+
+    <!-- Music Player Section -->
+    <section class="player">
+        <div class="album-cover">
+            <img id="album-cover" src="OIP (4).jpg" alt="Album Cover">
+        </div>
+        <div class="music-info">
+            <h2 id="track-title">Track Title 1</h2>
+            <audio id="audio" controls>
+                <source id="audio-source" src="ganna.html" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="player-controls">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Music Mania. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
